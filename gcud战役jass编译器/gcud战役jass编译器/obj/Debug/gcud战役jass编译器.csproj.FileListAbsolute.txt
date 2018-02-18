@@ -1,0 +1,10 @@
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.exe.config
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.exe
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.pdb
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.csprojResolveAssemblyReference.cache
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.Main.resources
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.Properties.Resources.resources
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.csproj.GenerateResource.Cache
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.csproj.CoreCompileInputs.cache
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.exe
+C:\Users\gcudfun\source\repos\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.pdb
