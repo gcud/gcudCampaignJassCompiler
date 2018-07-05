@@ -28,177 +28,155 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.components = new System.ComponentModel.Container();
+            this.War3RootPathLabel = new System.Windows.Forms.Label();
+            this.War3RootPathTextBox = new System.Windows.Forms.TextBox();
+            this.CopyBJToDesktopButton = new System.Windows.Forms.Button();
+            this.CompileButton = new System.Windows.Forms.Button();
+            this.CampaignPathTextBox = new System.Windows.Forms.TextBox();
+            this.CampaignPathLabel = new System.Windows.Forms.Label();
+            this.EntryFunctionNameTextBox = new System.Windows.Forms.TextBox();
+            this.EntryFunctionNameLabel = new System.Windows.Forms.Label();
+            this.CompileOptionLabel = new System.Windows.Forms.Label();
+            this.RemoveBlankCheckBox = new System.Windows.Forms.CheckBox();
+            this.RemoveBlankLineCheckBox = new System.Windows.Forms.CheckBox();
+            this.RemoveCommentCheckBox = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.SaveConfigButton = new System.Windows.Forms.Button();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.ExplainButton = new System.Windows.Forms.Button();
+            this.VersionLabel = new System.Windows.Forms.Label();
+            this.ViewUpdateLogButton = new System.Windows.Forms.Button();
+            this.Tips = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
-            // label1
+            // War3RootPathLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "魔兽根路径";
+            this.War3RootPathLabel.AutoSize = true;
+            this.War3RootPathLabel.Location = new System.Drawing.Point(18, 12);
+            this.War3RootPathLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.War3RootPathLabel.Name = "War3RootPathLabel";
+            this.War3RootPathLabel.Size = new System.Drawing.Size(98, 18);
+            this.War3RootPathLabel.TabIndex = 0;
+            this.War3RootPathLabel.Text = "魔兽根路径";
             // 
-            // textBox1
+            // War3RootPathTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(624, 21);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "D:\\Game\\War3\\War3_1.27CN";
+            this.War3RootPathTextBox.Location = new System.Drawing.Point(123, 9);
+            this.War3RootPathTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.War3RootPathTextBox.Name = "War3RootPathTextBox";
+            this.War3RootPathTextBox.Size = new System.Drawing.Size(934, 28);
+            this.War3RootPathTextBox.TabIndex = 1;
+            this.War3RootPathTextBox.Text = "E:\\Game\\War3\\War3_1.27CN";
             // 
-            // button1
+            // CopyBJToDesktopButton
             // 
-            this.button1.Location = new System.Drawing.Point(276, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "复制压缩的bj到桌面";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.CopyBJToDesktopButton.Location = new System.Drawing.Point(439, 213);
+            this.CopyBJToDesktopButton.Margin = new System.Windows.Forms.Padding(4);
+            this.CopyBJToDesktopButton.Name = "CopyBJToDesktopButton";
+            this.CopyBJToDesktopButton.Size = new System.Drawing.Size(196, 34);
+            this.CopyBJToDesktopButton.TabIndex = 2;
+            this.CopyBJToDesktopButton.Text = "复制压缩的bj到桌面";
+            this.CopyBJToDesktopButton.UseVisualStyleBackColor = true;
+            this.CopyBJToDesktopButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // CompileButton
             // 
-            this.button2.Location = new System.Drawing.Point(258, 123);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "生成编译后的gcud混乱之治jass";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.CompileButton.Location = new System.Drawing.Point(428, 519);
+            this.CompileButton.Margin = new System.Windows.Forms.Padding(4);
+            this.CompileButton.Name = "CompileButton";
+            this.CompileButton.Size = new System.Drawing.Size(246, 34);
+            this.CompileButton.TabIndex = 4;
+            this.CompileButton.Text = "生成编译后的bj";
+            this.CompileButton.UseVisualStyleBackColor = true;
+            this.CompileButton.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button3
+            // CampaignPathTextBox
             // 
-            this.button3.Location = new System.Drawing.Point(252, 213);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(164, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "生成编译后的bj";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.CampaignPathTextBox.Location = new System.Drawing.Point(123, 111);
+            this.CampaignPathTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CampaignPathTextBox.Name = "CampaignPathTextBox";
+            this.CampaignPathTextBox.Size = new System.Drawing.Size(934, 28);
+            this.CampaignPathTextBox.TabIndex = 8;
+            this.CampaignPathTextBox.Text = "ReignOfChaos";
             // 
-            // label2
+            // CampaignPathLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 108);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(695, 12);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "此功能依赖于gcud预先制作的blizzard_base.txt，该文件位于与程序同级的jass目录下面，如果丢失会导致整个程序无法进行操作";
+            this.CampaignPathLabel.AutoSize = true;
+            this.CampaignPathLabel.Location = new System.Drawing.Point(18, 114);
+            this.CampaignPathLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CampaignPathLabel.Name = "CampaignPathLabel";
+            this.CampaignPathLabel.Size = new System.Drawing.Size(80, 18);
+            this.CampaignPathLabel.TabIndex = 7;
+            this.CampaignPathLabel.Text = "战役目录";
             // 
-            // label3
+            // EntryFunctionNameTextBox
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 149);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(569, 12);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "此战役目录新建jass文件夹,并新建Variable,Function,Filter,Skill,Trigger,Init6个txt，在里面写jass";
+            this.EntryFunctionNameTextBox.Location = new System.Drawing.Point(123, 321);
+            this.EntryFunctionNameTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.EntryFunctionNameTextBox.Name = "EntryFunctionNameTextBox";
+            this.EntryFunctionNameTextBox.Size = new System.Drawing.Size(934, 28);
+            this.EntryFunctionNameTextBox.TabIndex = 11;
+            this.EntryFunctionNameTextBox.Text = "InitReignofChaos_gcud";
             // 
-            // textBox2
+            // EntryFunctionNameLabel
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 33);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(624, 21);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "ReignOfChaos";
+            this.EntryFunctionNameLabel.AutoSize = true;
+            this.EntryFunctionNameLabel.Location = new System.Drawing.Point(17, 324);
+            this.EntryFunctionNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.EntryFunctionNameLabel.Name = "EntryFunctionNameLabel";
+            this.EntryFunctionNameLabel.Size = new System.Drawing.Size(98, 18);
+            this.EntryFunctionNameLabel.TabIndex = 10;
+            this.EntryFunctionNameLabel.Text = "入口函数名";
             // 
-            // label4
+            // CompileOptionLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 36);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 12);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "战役目录";
+            this.CompileOptionLabel.AutoSize = true;
+            this.CompileOptionLabel.Location = new System.Drawing.Point(18, 423);
+            this.CompileOptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CompileOptionLabel.Name = "CompileOptionLabel";
+            this.CompileOptionLabel.Size = new System.Drawing.Size(80, 18);
+            this.CompileOptionLabel.TabIndex = 12;
+            this.CompileOptionLabel.Text = "编译选项";
             // 
-            // label5
+            // RemoveBlankCheckBox
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(81, 67);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(341, 12);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "要编译的文件必须在魔兽战役文件夹新建目录，只能为一级目录";
+            this.RemoveBlankCheckBox.AutoSize = true;
+            this.RemoveBlankCheckBox.Checked = true;
+            this.RemoveBlankCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.RemoveBlankCheckBox.Location = new System.Drawing.Point(123, 423);
+            this.RemoveBlankCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.RemoveBlankCheckBox.Name = "RemoveBlankCheckBox";
+            this.RemoveBlankCheckBox.Size = new System.Drawing.Size(142, 22);
+            this.RemoveBlankCheckBox.TabIndex = 13;
+            this.RemoveBlankCheckBox.Text = "移除空白字符";
+            this.RemoveBlankCheckBox.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // RemoveBlankLineCheckBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 164);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(606, 21);
-            this.textBox3.TabIndex = 11;
-            this.textBox3.Text = "InitReignofChaos_gcud";
+            this.RemoveBlankLineCheckBox.AutoSize = true;
+            this.RemoveBlankLineCheckBox.Checked = true;
+            this.RemoveBlankLineCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.RemoveBlankLineCheckBox.Location = new System.Drawing.Point(273, 423);
+            this.RemoveBlankLineCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.RemoveBlankLineCheckBox.Name = "RemoveBlankLineCheckBox";
+            this.RemoveBlankLineCheckBox.Size = new System.Drawing.Size(106, 22);
+            this.RemoveBlankLineCheckBox.TabIndex = 14;
+            this.RemoveBlankLineCheckBox.Text = "移除空行";
+            this.RemoveBlankLineCheckBox.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // RemoveCommentCheckBox
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 167);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 12);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "入口函数名";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 190);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 12);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "编译选项";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(72, 190);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(96, 16);
-            this.checkBox1.TabIndex = 13;
-            this.checkBox1.Text = "移除空白字符";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(174, 191);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(72, 16);
-            this.checkBox2.TabIndex = 14;
-            this.checkBox2.Text = "移除空行";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Checked = true;
-            this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox3.Location = new System.Drawing.Point(252, 191);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(72, 16);
-            this.checkBox3.TabIndex = 15;
-            this.checkBox3.Text = "移除注释";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.RemoveCommentCheckBox.AutoSize = true;
+            this.RemoveCommentCheckBox.Checked = true;
+            this.RemoveCommentCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.RemoveCommentCheckBox.Location = new System.Drawing.Point(387, 423);
+            this.RemoveCommentCheckBox.Margin = new System.Windows.Forms.Padding(4);
+            this.RemoveCommentCheckBox.Name = "RemoveCommentCheckBox";
+            this.RemoveCommentCheckBox.Size = new System.Drawing.Size(106, 22);
+            this.RemoveCommentCheckBox.TabIndex = 15;
+            this.RemoveCommentCheckBox.Text = "移除注释";
+            this.RemoveCommentCheckBox.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
@@ -206,40 +184,99 @@
             this.checkBox4.Checked = true;
             this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox4.Enabled = false;
-            this.checkBox4.Location = new System.Drawing.Point(330, 191);
+            this.checkBox4.Location = new System.Drawing.Point(705, 423);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(132, 16);
+            this.checkBox4.Size = new System.Drawing.Size(178, 22);
             this.checkBox4.TabIndex = 16;
-            this.checkBox4.Text = "简化名称（还没做）";
+            this.checkBox4.Text = "简化名称(还没做)";
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.Visible = false;
+            // 
+            // SaveConfigButton
+            // 
+            this.SaveConfigButton.Location = new System.Drawing.Point(240, 519);
+            this.SaveConfigButton.Margin = new System.Windows.Forms.Padding(4);
+            this.SaveConfigButton.Name = "SaveConfigButton";
+            this.SaveConfigButton.Size = new System.Drawing.Size(124, 34);
+            this.SaveConfigButton.TabIndex = 17;
+            this.SaveConfigButton.Text = "保存配置";
+            this.SaveConfigButton.UseVisualStyleBackColor = true;
+            this.SaveConfigButton.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(501, 423);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(196, 22);
+            this.checkBox5.TabIndex = 18;
+            this.checkBox5.Text = "使用新语法(还没做)";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.Visible = false;
+            // 
+            // ExplainButton
+            // 
+            this.ExplainButton.Location = new System.Drawing.Point(931, 519);
+            this.ExplainButton.Name = "ExplainButton";
+            this.ExplainButton.Size = new System.Drawing.Size(87, 34);
+            this.ExplainButton.TabIndex = 19;
+            this.ExplainButton.Text = "说明";
+            this.ExplainButton.UseVisualStyleBackColor = true;
+            this.ExplainButton.Click += new System.EventHandler(this.ExplainButton_Click);
+            // 
+            // VersionLabel
+            // 
+            this.VersionLabel.AutoSize = true;
+            this.VersionLabel.Location = new System.Drawing.Point(18, 528);
+            this.VersionLabel.Name = "VersionLabel";
+            this.VersionLabel.Size = new System.Drawing.Size(80, 18);
+            this.VersionLabel.TabIndex = 20;
+            this.VersionLabel.Text = "20180701";
+            // 
+            // ViewUpdateLogButton
+            // 
+            this.ViewUpdateLogButton.Location = new System.Drawing.Point(738, 519);
+            this.ViewUpdateLogButton.Name = "ViewUpdateLogButton";
+            this.ViewUpdateLogButton.Size = new System.Drawing.Size(131, 34);
+            this.ViewUpdateLogButton.TabIndex = 21;
+            this.ViewUpdateLogButton.Text = "查看更新日志";
+            this.ViewUpdateLogButton.UseVisualStyleBackColor = true;
+            this.ViewUpdateLogButton.Click += new System.EventHandler(this.ViewUpdateLogButton_Click);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 446);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1095, 593);
+            this.Controls.Add(this.ViewUpdateLogButton);
+            this.Controls.Add(this.VersionLabel);
+            this.Controls.Add(this.ExplainButton);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.SaveConfigButton);
             this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.RemoveCommentCheckBox);
+            this.Controls.Add(this.RemoveBlankLineCheckBox);
+            this.Controls.Add(this.RemoveBlankCheckBox);
+            this.Controls.Add(this.CompileOptionLabel);
+            this.Controls.Add(this.EntryFunctionNameTextBox);
+            this.Controls.Add(this.EntryFunctionNameLabel);
+            this.Controls.Add(this.CampaignPathTextBox);
+            this.Controls.Add(this.CampaignPathLabel);
+            this.Controls.Add(this.CompileButton);
+            this.Controls.Add(this.CopyBJToDesktopButton);
+            this.Controls.Add(this.War3RootPathTextBox);
+            this.Controls.Add(this.War3RootPathLabel);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "gcud战役jass编译器";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
+            this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,23 +284,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.Label War3RootPathLabel;
+        private System.Windows.Forms.TextBox War3RootPathTextBox;
+        private System.Windows.Forms.Button CopyBJToDesktopButton;
+        private System.Windows.Forms.Button CompileButton;
+        private System.Windows.Forms.TextBox CampaignPathTextBox;
+        private System.Windows.Forms.Label CampaignPathLabel;
+        private System.Windows.Forms.TextBox EntryFunctionNameTextBox;
+        private System.Windows.Forms.Label EntryFunctionNameLabel;
+        private System.Windows.Forms.Label CompileOptionLabel;
+        private System.Windows.Forms.CheckBox RemoveBlankCheckBox;
+        private System.Windows.Forms.CheckBox RemoveBlankLineCheckBox;
+        private System.Windows.Forms.CheckBox RemoveCommentCheckBox;
         private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Button SaveConfigButton;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.Button ExplainButton;
+        private System.Windows.Forms.Label VersionLabel;
+        private System.Windows.Forms.Button ViewUpdateLogButton;
+        private System.Windows.Forms.ToolTip Tips;
     }
 }
 

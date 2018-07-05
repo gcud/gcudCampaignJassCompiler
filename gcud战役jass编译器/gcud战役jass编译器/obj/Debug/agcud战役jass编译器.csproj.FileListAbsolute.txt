@@ -1,0 +1,13 @@
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.exe.config
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.exe.manifest
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.application
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.exe
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\bin\Debug\gcud战役jass编译器.pdb
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.Main.resources
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.Properties.Resources.resources
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\agcud战役jass编译器.csproj.GenerateResource.cache
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\agcud战役jass编译器.csproj.CoreCompileInputs.cache
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.exe.manifest
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.application
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.exe
+E:\Application\Myself\gcudCampaignjasseditor\gcud战役jass编译器\gcud战役jass编译器\obj\Debug\gcud战役jass编译器.pdb

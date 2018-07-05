@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("gcud战役jass编译器")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("gcud")]
 [assembly: AssemblyProduct("gcud战役jass编译器")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("gcud")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
