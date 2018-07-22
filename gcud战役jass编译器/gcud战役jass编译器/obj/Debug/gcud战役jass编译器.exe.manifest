@@ -49,17 +49,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3BHH70jman850Wp/Auigljen/HzQcTdh0WpYPyuDy6E=</dsig:DigestValue>
+        <dsig:DigestValue>WPTuhIgQc76nX1gCrYGuwd4aGbY/3SDdHvd64/xFKts=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bin\Debug\jass\blizzard_base.txt" size="273273">
+  <file name="bin\Debug\jass\blizzard_base.txt" size="289150">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>QSXU22c6OkgTPSSE4641uevWDOwAUK+hLEthvCcnD4I=</dsig:DigestValue>
+      <dsig:DigestValue>pC7rJvMum3te5I2j0dGvAnVqgaMegMZwancbojldTqg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Debug\Language\Display\zh-CN.txt" size="1318">
@@ -71,22 +71,22 @@
       <dsig:DigestValue>hXx/vaUpdMw7dRLdQZa2OOXm54k/J/Whm9WbDkQ3zjo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\Debug\Language\Explain\zh-CN.txt" size="816">
+  <file name="bin\Debug\Language\Explain\zh-CN.txt" size="813">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>DHQ3nBr7Rs1Q9AZLJUUsi7u8tL+N6zXE10z0mvPMt0U=</dsig:DigestValue>
+      <dsig:DigestValue>oefZhUd3fGNy9t+6+xcY4NvbHoJMaynulzWj0WWDafs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\Debug\Language\UpdateLog\zh-CN.txt" size="658">
+  <file name="bin\Debug\Language\UpdateLog\zh-CN.txt" size="837">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>u9DkYkIj9Xq46irRyPAmY7F8v0Mhb3dpnVr85rp6PEg=</dsig:DigestValue>
+      <dsig:DigestValue>USFPz0Q3H0Bsnu6KOV33x2rYnNuaPfEJQyo03ENJYGo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="gcud战役jass编译器.exe.config" size="1486">
@@ -95,7 +95,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>XJB2E5dQ/8yrErNjoau/tMdGOPvGdsmpcRE6W21IsiA=</dsig:DigestValue>
+      <dsig:DigestValue>UyUs4mCBjdUZup7APwI666i9/eBdTdf/8gIaQftzZ38=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
